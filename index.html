@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700;900&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header class="header" id="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a class="header__link" href="#">Interior<span>.</span></a>
+            </div>
+            <nav class="header__nav active" id="navigation">
+                <a href="#" class="header__nav-link" data-scroll="#about-us">About us</a>
+                <a href="#" class="header__nav-link" data-scroll="#projects">Projects</a>
+                <a href="#" class="header__nav-link" data-scroll="#contacts">Contacts</a>
+            </nav>
+
+            <button class="burger active" id="burger">
+                <span></span>
+            </button>
+        </div>
+    </header> <!--header-->
+    <div class="intro" style="background: url(../assets/images/intro-bg.jpg);" id="intro">
+        <section class="intro__section">
+            <div class="container">
+                <div class="intro__contant">
+                    <h2 class="intro__title">Would  you like to   live in
+                        beautiful and quiet place?
+                    </h2>
+                    <p class="intro__text">You can choose house of your dream in our catalog.
+                        We are building houses more than 15 years?</p>
+                    <a href=""  class="btn btn--orange" data-scroll="#projects">Choose a house</a>
+                </div>
+            </div> <!--container-->
+        </section> <!--intro__section-->
+    </div> <!--Intro-->
+
+    <!--about-->
+    <section class="about" id="about-us">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__left">
+                    <div class="description">
+                        <h2 class="description__title">About us</h2>
+                        <div class="description__text">
+                            <p>The reason clients of The Building Company remain our friends and satisfied customers, even after we complete their homes, is not because we try harder or work longer. </p>
+                            <p>It’s because we know more about the home building process than our competitors, and we have a planning process that eliminates or has contingency for any and all obstacles.</p>
+                        </div>
+
+                        <div class="technologies">
+                            <h3 class="technologies__title">
+                                How we are building
+                            </h3>
+                            <p class="technologies__text">
+                                Choose number on the picture on the right side and you will see more about our projects.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="materials">
+                        <div class="materials__picture">
+                            <img src="assets/images/m-ob.png" alt="">
+                        </div>
+                        <div class="materials__text">
+                            <p>Foil gives a reflective effect and contributes to additional
+                                heat preservation in the room. Each type of insulation
+                                material has its own properties, which give some
+                                advantages to each in relation to others.</p>
+                        </div>
+                    </div>
+
+                </div> <!--about__left-->
+                    <div class="about__right">
+                        <div class="about__slider" id="sliderBox">
+                            <div>
+                                <img class="about__right-img" src="assets/images/kanadskaja-tehnologija-dom.png" alt="">
+                            </div>
+                            <div>
+                                <img class="about__right-img" src="assets/images/second.png" alt="">
+                            </div>
+                            <div>
+                                <img class="about__right-img" src="assets/images/third.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div> <!--container-->
+    </section> <!--about-->
+
+    <!--examples-->
+    <div class="examples" id="projects">
+        <div class="container">
+            <div class="examples__head">
+                <div class="examples__contant">
+                    <h3 class="examples__title">Projects</h3>
+                    <div class="examples__text" >
+                        <p>The reason clients of The Building Company remain our friends and satisfied customers, even after we complete their homes, is not because we try harder or work longer.</p>
+                        <p>It’s because we know more about the home building process than our competitors, and we have a planning process that eliminates or has contingency for any and all obstacles.</p>
+                        <p>Company remain our friends and satisfied customers, even after we complete their homes, is not because we try harder or work longer</p>
+                    </div>
+                    <button class="btn" type="button">Download catalog</button>
+                </div>
+                <!--examples__card-->
+                <div class="examples__card" style="background: url(../assets/images/img.jpg);">
+                    <h2 class="examples__card-title">Boston</h2>
+                    <h2 class="examples__card-area">450m <sup>2</sup></h2>
+                    <div class="examples__card-rooms">
+                        <div class="examples__card-baths">
+                            <img src="assets/images/bathtub.svg" alt="">
+                            <span> 3  bathrooms</span>
+                        </div>
+                        <div class="examples__card-bed">
+                            <img src="assets/images/bed.svg" alt="">
+                            <span> 3 bedrooms</span>
+                        </div>
+
+                        <button class="btn btn-card" type="button">See more</button>
+                    </div>
+                </div>
+            </div>
+            <!--cataloge-->
+            <div class="cataloge">
+
+                <div class="cataloge__item">
+                    <img class="cataloge__item-img" src="assets/images/maimi.jpg" alt="">
+                    <div class="cataloge__item-info">
+                        <div class="cataloge__item-head">
+                            <h2 class="examples__card-title examples__card-title--cat">City Wiht Long Name</h2>
+                            <h3 class="examples__card-area examples__card-area--cat">450m <sup>2</sup></h3>
+                        </div>
+                        <div class="examples__card-rooms examples__card-rooms--cat">
+                            <div class="examples__card-baths">
+                                <img src="assets/images/bathtub.svg" alt="">
+                                <span> 3  bathrooms</span>
+                            </div>
+                            <div class="examples__card-bed">
+                                <img src="assets/images/bed.svg" alt="">
+                                <span> 3 bedrooms</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-cataloge" type="button">See more</button>
+                    </div>
+                </div>
+                <div class="cataloge__item">
+                    <img class="cataloge__item-img" src="assets/images/orlando.jpg" alt="">
+                    <div class="cataloge__item-info">
+                        <h2 class="examples__card-title examples__card-title--cat">Orlando</h2>
+                        <h2 class="examples__card-area examples__card-area--cat">520m <sup>2</sup></h2>
+                        <div class="examples__card-rooms examples__card-rooms--cat">
+                            <div class="examples__card-baths">
+                                <img src="assets/images/bathtub.svg" alt="">
+                                <span> 4  bathrooms</span>
+                            </div>
+                            <div class="examples__card-bed">
+                                <img src="assets/images/bed.svg" alt="">
+                                <span> 3 bedrooms</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-cataloge" type="button">See more</button>
+                    </div>
+                </div>
+                <div class="cataloge__item">
+                    <img class="cataloge__item-img" src="assets/images/sietl.jpg" alt="">
+                    <div class="cataloge__item-info">
+                        <h2 class="examples__card-title examples__card-title--cat">Sietl</h2>
+                        <h2 class="examples__card-area examples__card-area--cat">380m <sup>2</sup></h2>
+                        <div class="examples__card-rooms examples__card-rooms--cat">
+                            <div class="examples__card-baths">
+                                <img src="assets/images/bathtub.svg" alt="">
+                                <span> 2  bathrooms</span>
+                            </div>
+                            <div class="examples__card-bed">
+                                <img src="assets/images/bed.svg" alt="">
+                                <span> 1 bedrooms</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-cataloge" type="button">See more</button>
+                    </div>
+                </div>
+                <div class="cataloge__item">
+                    <img class="cataloge__item-img" src="assets/images/orlando.jpg" alt="">
+                    <div class="cataloge__item-info">
+                        <h2 class="examples__card-title examples__card-title--cat">Orlando</h2>
+                        <h2 class="examples__card-area examples__card-area--cat">520m <sup>2</sup></h2>
+                        <div class="examples__card-rooms examples__card-rooms--cat">
+                            <div class="examples__card-baths">
+                                <img src="assets/images/bathtub.svg" alt="">
+                                <span> 4  bathrooms</span>
+                            </div>
+                            <div class="examples__card-bed">
+                                <img src="assets/images/bed.svg" alt="">
+                                <span> 3 bedrooms</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-cataloge" type="button">See more</button>
+                    </div>
+                </div>
+                <div class="cataloge__item">
+                    <img class="cataloge__item-img" src="assets/images/sietl.jpg" alt="">
+                    <div class="cataloge__item-info">
+                        <h2 class="examples__card-title examples__card-title--cat">Sietl</h2>
+                        <h2 class="examples__card-area examples__card-area--cat">380m <sup>2</sup></h2>
+                        <div class="examples__card-rooms examples__card-rooms--cat">
+                            <div class="examples__card-baths">
+                                <img src="assets/images/bathtub.svg" alt="">
+                                <span> 2  bathrooms</span>
+                            </div>
+                            <div class="examples__card-bed">
+                                <img src="assets/images/bed.svg" alt="">
+                                <span> 1 bedrooms</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-cataloge" type="button">See more</button>
+                    </div>
+                </div>
+                <div class="cataloge__item">
+                    <img class="cataloge__item-img" src="assets/images/maimi.jpg" alt="">
+                    <div class="cataloge__item-info">
+                        <h2 class="examples__card-title examples__card-title--cat">Boston</h2>
+                        <h2 class="examples__card-area examples__card-area--cat">450m <sup>2</sup></h2>
+                        <div class="examples__card-rooms examples__card-rooms--cat">
+                            <div class="examples__card-baths">
+                                <img src="assets/images/bathtub.svg" alt="">
+                                <span> 3  bathrooms</span>
+                            </div>
+                            <div class="examples__card-bed">
+                                <img src="assets/images/bed.svg" alt="">
+                                <span> 3 bedrooms</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-cataloge" type="button">See more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contacts-->
+    <section class="contacts" id="contacts" style="background: url(../assets/images/contactbg.jpg);">
+        <div class="container">
+            <h2 class="contacts__title">Contacts</h2>
+
+            <div class="contacts-wrapper">
+
+                <div class="contacts__left">
+                    <div class="contacts__place">
+                        <p>We are waiting for you at our office in Roga.</p>
+                    </div>
+                    <div class="map">
+                        <div class="map__position">
+                            <a href="https://www.google.com.ua/maps/place/Рига,+Латвия/@56.9717575,24.1290734,11z/data=!4m5!3m4!1s0x46eecfb0e5073ded:0x400cfcd68f2fe30!8m2!3d56.9676941!4d24.1056221?hl=ru">
+                                <img class="map__picture" src="assets/images/map.jpg" alt="">
+                            </a>
+
+                        </div>
+                        <div class="map__info">
+                            <div class="map__contact">
+                                <img class="map__icon" src="assets/images/location-pin.svg" alt="">
+                                <a href="#">Riga, Brivibas iela, 120a</a>
+                            </div>
+                            <div class="map__contact">
+                                <img class="map__icon" src="assets/images/call.svg" alt="">
+                                <a href="tel:+37126326400">+371 26326400</a>
+                            </div>
+                            <div class="map__contact">
+                                <img class="map__icon" src="assets/images/email.svg" alt="">
+                                <a href="mailto:info.interior@gmail.com">info.interior@gmail.com</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__right">
+                    <div class="call-back">
+                        <h3 class="call-back__title">Write your     phone number
+                            and our manager will call you
+                        </h3>
+                        <form class="call-back__form" action="/" method="post">
+                            <input class="call-back__input"  type="text" placeholder="Your name">
+                            <input class="call-back__input"  type="tel" placeholder="Your phone">
+                        </form>
+                        <button class="btn" type="button">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <a class="footer__link" href="#">Interior<span>.</span></a>
+                <div class="footer__rules">
+                    <p>© 2019 All rights are deserved</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
