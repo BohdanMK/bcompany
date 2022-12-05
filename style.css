@@ -312,7 +312,7 @@ body {
     margin: 0;
     padding: 0 0 70px 0;
 
-    background: #000 url(../assets/images/examlesBg.jpg) no-repeat center center;
+    background: #000 url(assets/images/examlesBg.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -542,7 +542,7 @@ body {
     padding-top: 35px;
 
 
-    background: #020710 url(../assets/images/contactbg.jpg) no-repeat center center;
+    background: #020710 url(assets/images/contactbg.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
